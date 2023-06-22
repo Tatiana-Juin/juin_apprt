@@ -1,0 +1,19 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+
+}
+
+nav,footer{
+    background-color: #ffeeee !important;
+}
+
+/* pour enlever les decoration des liens du tableau  */
+td a{
+    text-decoration: none;
+
+}
+
+
