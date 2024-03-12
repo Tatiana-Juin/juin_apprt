@@ -35,7 +35,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-lg-center" id="navbarText">
-          <!-- LIEN DE NAVIGATION -->
+          <!-- LIENS DE NAVIGATION DU SITE  -->
           <ul class="navbar-nav justify-content-lg-center ">
               <li class="nav-item">
                   <a class="nav-link fs-4" href="<?= RACINE_SITE."ajoutAnnonce.php"?>">Ajouter une annonce </a>
