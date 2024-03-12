@@ -34,7 +34,7 @@ CREATE TABLE `advert` (
   `image` varchar(255) NOT NULL,
   `title` varchar(155) NOT NULL,
   `description` varchar(255) NOT NULL,
-  `postal_code` int(5) NOT NULL,
+  `postal_code` int(5) NOT NUL,
   `city` varchar(100) NOT NULL,
   `type` enum('vente','location') NOT NULL,
   `price` float NOT NULL,
