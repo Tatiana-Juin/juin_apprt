@@ -14,7 +14,7 @@
         <!-- titre de la page -->
         <h1 class="text-center mb-5">Les 15 premières annonces</h1>
         
-        <!-- TABLEAU  POUR AFFICHER LES 15 PREMIERE ANNONCES-->
+        <!-- TABLEAU  POUR AFFICHER LES 15 PREMIERES ANNONCES-->
         <table class="table">
             <!-- en tête -->
             <thead>

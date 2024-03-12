@@ -2,7 +2,7 @@
     $title = "Ajouer une annonce";
     require_once("inc/functions.inc.php");
     
-    //INITIALISATION DE LA VARIABLE $info POUR LES MESSAGE
+    //INITIALISATION DE LA VARIABLE $info POUR LES MESSAGES
     $info ="";
     //APPELLE DE LA FONCTION allType() POUR RECUPERER TOUS LES TYPES DANS LA VARIABLE $types
     $types = allType();
@@ -18,7 +18,7 @@
                 $verif=false;
             }
         }
-
+        //CONDITION POUR AFFICHER UN MESSAGE SI TOUS LES CHAMPS NE SONT PAS REMPLI
          if(!$verif ){
             $info .= alert("Erreur veuillez saisir tous les champs",'danger');
             
@@ -58,7 +58,7 @@
                 $info.= alert("Erreur veuillez saisir au moins 2 caracteres alphabetiques pour la ville","danger");
             }
 
-            //VERIFICATION POUR LE PRIX 
+             
              //VERIFICATION code postal - l'utilisateur ne peut pas saisir dde chiifre 
              if(strlen($price) < 3 ){
                 $info.= alert("Erreur veuillez saisir un nombre de 3 chiffres minimum pour le prix","danger");

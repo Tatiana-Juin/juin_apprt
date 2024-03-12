@@ -43,7 +43,7 @@
                 $info = alert("Erreur veuillez saisir une description de plus de 10 caractere ","danger");
             }
 
-            //SI $info EST VIDE - DONC IL N'Y A PAS D'ERREUR 
+            //SI $info EST VIDE -  IL N'Y A PAS D'ERREUR 
             if(empty($info)){
                 //securise les informations
                 $reservation_message = htmlentities($reservation_message); 

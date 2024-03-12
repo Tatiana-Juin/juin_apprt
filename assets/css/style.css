@@ -5,7 +5,7 @@
     padding: 0; 
 
 }
-
+/* Pour la navigation et le pied de page */
 nav,footer{
     background-color: #ffeeee !important;
 }

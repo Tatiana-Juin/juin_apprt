@@ -10,7 +10,7 @@
     <div class="mt-5 w-75 m-auto ">
         <h1 class="text-center mb-5">Toutes les annonces</h1>
         
-        <!-- TABLEAU  POUR AFFICHER LES 15 PREMIERE ANNONCES-->
+        <!-- TABLEAU  POUR AFFICHER LES ANNONCES-->
         <table class="table">
             <!-- en tête -->
             <thead>

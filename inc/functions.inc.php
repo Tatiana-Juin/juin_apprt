@@ -17,9 +17,7 @@
           </div>";
     }
 
-
     //POUR LA CONNEXION A LA BDD
-
     define("DBHOST","localhost");
     define("DBUSER","root");
     define("DBPASS","");
@@ -32,7 +30,6 @@
             $pdo = new PDO($dsn,DBUSER,DBPASS);
             $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
-            //echo "fonctionne";
 
         } catch (PDOException $e) {
             die($e->getMessage());

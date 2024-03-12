@@ -1,4 +1,4 @@
-  <!-- Footer de la page -->
+  <!-- Footer des pages -->
   <footer>
       <p class="text-center p-3">Realiser par Tatiana </p>
   </footer>
